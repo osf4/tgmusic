@@ -103,6 +103,7 @@ async def handle_navigation_callback(query: CallbackQuery,
                                      callback_data: NavigationButtonCallback,
                                      downloader: BaseDownloader,
                                      state: FSMContext):
+                                       
     current_playlist = await StateManager.get_current_playlist(state)
     if __playlist_not_exist_or_not_same(current_playlist,
                                         callback_data.playlist_id):
