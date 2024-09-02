@@ -13,7 +13,7 @@ git clone https://github.com/osf4/tgmusic
 VK_ACCESS_TOKEN = 'your token from https://vkhost.github.io'
 TELEGRAM_BOT_TOKEN = 'your telegram token from @BotFather'
 
-TELEGRAM_BOT_URL = 't.me/ link to your bot. If provided, the bot will provide "via" capture for every track'
+TELEGRAM_BOT_URL = 't.me/ link to your bot. If provided, the bot will sign "via" capture for every track'
 ```
 
 3. run ```python main.py```
